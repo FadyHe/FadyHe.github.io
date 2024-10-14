@@ -1,0 +1,64 @@
+.video-grid {
+    margin-top: 120px;
+    margin-left: 85px;
+    columns: 4 400px;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+
+
+.video-div {
+    display: inline-block;
+    width: 400px;
+}
+
+.pic-div {
+    display: block;
+    margin-bottom: 10px;
+}
+.thumb {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.des-div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+ 
+.creator {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;
+}
+.creator-pic {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.title1 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+.title2 {
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+.title3 {
+    color: gray;
+    font-size: 14px;
+}
+.check {
+    background: rgb(40, 40, 40);
+    padding: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 70px;
+    margin-left: 5px;
+}
